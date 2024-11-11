@@ -7,6 +7,7 @@ import { ResumeProvider } from "./contexts/ResumeContext.jsx";
 import Write from "./pages/Write.jsx";
 import ResumeContents from "./pages/ResumeContents.jsx";
 import HowToDownload from "./components/HowToDownload.jsx";
+import About from "./components/About.jsx";
 
 const router = createBrowserRouter([
   {
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
   {
     path: "/how-to-download",
     element: <HowToDownload />,
+  },
+  {
+    path: "/about",
+    element: <About />,
   },
 ]);
 
