@@ -11,7 +11,7 @@ const Footer = () => {
     >
       <div className="container mx-auto px-4 text-center">
         <p className="text-sm text-white">
-          &copy; {new Date().getFullYear()} Resumify. Made By{" "}
+          &copy; {new Date().getFullYear()} ResumeMint. Made By{" "}
           <a
             className="text-green-400 hover:text-white hover:transition-all hover:delay-200"
             href="https://anupamshakya.in"

@@ -12,7 +12,7 @@ const Navbar = () => {
     >
       <div className="container mx-auto flex justify-between items-center">
         <Link to={"/"}>
-          <h1 className="text-xl sm:text-2xl font-bold">Resumify</h1>
+          <h1 className="text-xl sm:text-2xl font-bold">ResumeMint</h1>
         </Link>
 
         {/* Button */}
